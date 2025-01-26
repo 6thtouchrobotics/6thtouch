@@ -293,7 +293,7 @@ export default function Page() {
             <View style={styles.playBtnCta}>
               {play ? (
                 <View>
-                  <TouchableOpacity>
+                  <TouchableOpacity style={{ zIndex: 999 }}>
                     <FontAwesome
                       name="stop-circle"
                       size={40}
@@ -303,7 +303,7 @@ export default function Page() {
                   </TouchableOpacity>
                 </View>
               ) : (
-                <TouchableOpacity>
+                <TouchableOpacity style={{ zIndex: 999 }}>
                   <FontAwesome
                     name="play-circle"
                     size={40}

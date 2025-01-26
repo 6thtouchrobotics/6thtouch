@@ -14,7 +14,6 @@ import body from "@/constants/Colors";
 import useAuth from "@/hooks/useAuth";
 import { router } from "expo-router";
 import { PUBLIC_KEY } from "@env";
-console.log(PUBLIC_KEY);
 
 export default function Page() {
   const [response, setResponse] = useState({});
